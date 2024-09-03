@@ -22,8 +22,8 @@ const reverseSeq = n => {
 // trick 2
 const arrKebalik = n => {
     return Array(n).fill().map((element, i) => i + 1).reverse();
-    return Array(n).fill().map((element, i) => n - i);
-    return [...Array(n)].map((element, i) => n - i);
+    // return Array(n).fill().map((element, i) => n - i);
+    // return [...Array(n)].map((element, i) => n - i);
 }
 // console.log(arrKebalik(5));
 
