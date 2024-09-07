@@ -42,6 +42,17 @@ function multipleArray(num) {
 const arrMultiplying = (param) => param.reduce((acc, curr) => acc * curr, 1);
 console.log(arrMultiplying([4, 5, 6]));
 
+/**
+ * Soal latihan
+ * Jika Anda memiliki dua array A = [1, 2, 3] dan B = [4, 5, 6], 
+ * buatlah program yang mengalikan elemen-elemen yang bersesuaian dari kedua array tersebut 
+ * dan menyimpan hasilnya dalam array baru C.
+ */
+
+// let hitungPerkalianKeduaArray = (A, B) => A.map((a, i) => a * B[i]);
+
+// console.log(hitungPerkalianKeduaArray([1,2,3], [4,5,6]));
+
 
 
 
